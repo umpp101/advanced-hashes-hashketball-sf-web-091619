@@ -199,13 +199,14 @@ def big_shoe_rebounds
     team[:players].each do |key|
       if key[:shoe] > max
         max = key
-      # binding.pry
+      
       rebound = key[:rebounds]
+      binding.pry
       end   
     end
   end
   rebounds
-  binding.pry
+  
 end
 
 
