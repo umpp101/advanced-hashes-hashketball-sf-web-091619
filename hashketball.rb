@@ -199,9 +199,10 @@ def big_shoe_rebounds
       if key[:shoe] >= max
         max = key
       # binding.pry
-   end   
+      end   
+    end
   end
-  return key[:rebounds]
+ key[:rebounds]
 end
 
 
