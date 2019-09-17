@@ -202,7 +202,7 @@ def big_shoe_rebounds
       end   
     end
   end
- key[:rebounds]
+ key[:rebounds].to_i
 end
 
 
